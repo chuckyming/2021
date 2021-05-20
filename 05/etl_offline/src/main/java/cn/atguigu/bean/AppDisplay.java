@@ -37,11 +37,11 @@ public class AppDisplay {
         this.place = place;
     }
 
-    public String getExtendl() {
+    public String getExtend1() {
         return extendl;
     }
 
-    public void setExtendl(String extendl) {
+    public void setExtend1(String extendl) {
         this.extendl = extendl;
     }
 

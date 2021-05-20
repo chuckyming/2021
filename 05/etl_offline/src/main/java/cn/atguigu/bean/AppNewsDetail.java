@@ -64,11 +64,11 @@ public class AppNewsDetail {
         this.loading_time = loading_time;
     }
 
-    public String getTypel() {
+    public String getType1() {
         return typel;
     }
 
-    public void setTypel(String typel) {
+    public void setType1(String typel) {
         this.typel = typel;
     }
 

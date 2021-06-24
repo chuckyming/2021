@@ -8,5 +8,14 @@
     <artifactId>hivefunction</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+        <!--添加hive依赖-->
+        <dependency>
+            <groupId>org.apache.hive</groupId>
+            <artifactId>hive-exec</artifactId>
+            <version>3.1.2</version>
+        </dependency>
+    </dependencies>
+
 
 </project>

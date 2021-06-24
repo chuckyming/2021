@@ -1,0 +1,12 @@
+def square_digits(num):
+    a = [(int(i)*int(i)) for i in str(num)]
+    a2 = [str(i) for i in a]
+    a3 = int(''.join(a2))
+    return a3
+you are asked to square every digit of a number and concatenate them.
+// 	将number转换成string类型
+// 进行切割转换为数组
+// 对每位数字进行平方操作
+// 将得到的进行拼接
+// 转换成number，返回
+// 验证

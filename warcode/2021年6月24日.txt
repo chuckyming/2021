@@ -10,3 +10,14 @@ you are asked to square every digit of a number and concatenate them.
 // 将得到的进行拼接
 // 转换成number，返回
 // 验证
+
+ create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+ def filter_list(l):
+    new_l =[]       #新建一个数组
+    for x in l:    #遍历一个数组里每一个元素
+        if type(x) != str:   #判断每一个元素的数据类型，type()函数
+            new_l.append(x)  #添加进新数组
+    return new_l
+def filter_list(l):
+  'return a new list with the strings filtered out'
+  return [i for i in l if not isinstance(i, str)]
